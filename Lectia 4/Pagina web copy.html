@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    *{
+        margin:0;
+        padding: 0;
+    }
+
+    html{
+        background: rgba(179,220,237,1);
+        background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(41,184,229,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(0%, rgba(188,224,238,1)), color-stop(100%, rgba(41,184,229,1)));
+        background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(41,184,229,1) 100%);
+        background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(41,184,229,1) 100%);
+        background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(41,184,229,1) 100%);
+        background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(41,184,229,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#29b8e5', GradientType=1 );
+    }
+    body{
+        width: 968px;
+        display: table;
+        margin: 0 auto
+    }
+    h1{
+        font-size: 50px;
+    }
+    .title{
+        color:white;
+        float:left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: table;
+        margin:auto;
+        clear: left;
+    }
+    div p:last-child{
+        font-size: 15px;
+    }
+    
+    nav{
+        display: block;
+        padding: 50px;
+    }
+
+    nav ul li{
+        list-style: none;
+        float:right;
+    }
+    nav ul li:first-child{
+        float:left;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding:20px 10px;
+        display:inline-block;
+        border-radius: 50% 50% 50% 50%;
+    }
+    nav ul li a:hover{
+        background-color: rgba(167, 235, 241, 0.329);
+    }
+    .button1{
+        text-decoration: none;
+        border-radius: 30% 30% 30% 30%;
+        display:inline-block;
+        padding:10px 40px;
+        background-color: white;
+        color:aqua;
+    }
+    .button2{
+        text-decoration: none;
+        border-radius: 30% 30% 30% 30%;
+        display:inline-block;
+        border:white;
+        padding:10px 40px;
+        background-color: transparent;
+        color:white;
+    }
+
+    </style>
+</head>
+<body>
+<header>
+<nav>
+    <ul>
+        <li><a href="#"><img src="logo.png" alt="logo image"></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Use case</a></li>
+        <li><a href="#">Pricing</a></li>
+    </ul>
+</nav>
+
+</header>
+
+
+<div style="display: inline-block; margin:auto; padding:60px;">
+    <div class="title" style="width: 45%">
+        <h1>Beautiful<br>Landing Page</h1>
+        <p>We build this template to help you create<br> modern and beautiful marketing page.</p>
+        <a class="button1" href="#">Get it now</a>
+        <a class="button2" href="#">Features</a>
+    </div>
+
+    <img style="float:right; width:45%" src="phone.png" alt="phone">
+</div>  
+
+
+</body>
+</html>
